@@ -55,7 +55,7 @@ public class Ruin {
 		double ruinRate = numberofLosses *1.0 / simulations ;
 		double expectedRuinRate;
 		double a = (1-winChance)/winChance;
-		if( winChance==0.5) {
+		if( winChance == 0.5) {
 			expectedRuinRate = 1 - (startAmount*1.0/winLimit); 
 		}
 		else {
